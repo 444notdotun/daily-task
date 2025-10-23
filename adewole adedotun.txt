@@ -1,0 +1,23 @@
+adedotun 
+
+
+
+@BeforeEach annotation mark  is vital for setting up test fixtures and improving test maintainability.
+
+
+
+It is used to mark a method that should execute or run before every test method in the class multiple
+it can be defined in a single  test class
+It helps in providing initialization or setting up common test fixtures required by the test methods.
+
+
+@AfterEach annotation 
+It means whenever you run the test method @AfterEach method will be executed at least once after test method execution
+Method annotated by @AfterEach should be non static and it should be void return type
+it helps clean up after the test is done
+
+
+Chapter 3 summary
+Instance variables are variables that belong to a specific instance of a class. Each object created from a class will have its own  copy of the instance variables. The keyword public is an access modifier, Identifiers by convention all use CamelCase like our class names, method names and variable names and also the keywords "public" and "private" are access modifiers. A class containing the main method are called the driver class. Keyword new creates a new object of the specified class. Parentheses in combination with a class name represent a constructor, which is similar to a method but is called implicitly by the new operator to initialize an object’s instance variables when the object is created. A primitive-type variable can hold exactly one value of its declared type at a time, Primitive-type instance variables are initialized by default. The empty parentheses following a method name indicate that the method does not require any parameters to perform its task. Classes often provide public methods to allow the class’s clients to set or get private instance variables. The javac command can compile multiple classes at once, The number of arguments in a method call must match the number of parameters in the method declaration’s parameter list, when declaring instance variables private is known as information hiding.
+
+
